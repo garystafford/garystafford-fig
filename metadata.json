@@ -1,7 +1,7 @@
 {
 	"author": "Gary A. Stafford",
 	"dependencies": [],
-	"license": "Apache License, Version 2.0",
+	"license": "Apache-2.0",
 	"name": "garystafford-fig",
 	"operatingsystem_support": [{
 			"operatingsystem": "Ubuntu",
@@ -10,10 +10,12 @@
 			]
 		}
 	],
-	"project_page": "https://github.com/garystafford/garystafford-fig",
+	"project_page": "https://forge.puppetlabs.com/garystafford/fig",
 	"requirements": [],
 	"source": "https://github.com/garystafford/garystafford-fig",
+	"issues_url": "https://github.com/garystafford/garystafford-fig/issuess",
 	"summary": "Module for installing Fig (http://www.fig.sh)",
-	"tags": ["Fig"],
+	"tags": [ "fig"
+	],
 	"version": "0.1.2"
 }
