@@ -15,5 +15,5 @@
 	"source": "https://github.com/garystafford/garystafford-fig",
 	"summary": "Module for installing Fig (http://www.fig.sh)",
 	"tags": ["Fig"],
-	"version": "0.1.1"
+	"version": "0.1.2"
 }
