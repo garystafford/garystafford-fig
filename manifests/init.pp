@@ -22,9 +22,9 @@ class fig {
     user    => root,
   } ->
   file { "/usr/local/bin/fig":
-    path    => "/usr/local/bin/fig",
-    owner   => "root",
-    group   => "root",
-    mode    => "0755",
+    path  => "/usr/local/bin/fig",
+    owner => "root",
+    group => "root",
+    mode  => "0755",
   }
 }
