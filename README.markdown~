@@ -1,6 +1,6 @@
 # fig #
 
-Puppet module for installing Fig v1.0.1 (http://www.fig.sh).
+Puppet module for installing Fig (http://www.fig.sh).
 
 ## Support
 
@@ -22,6 +22,3 @@ include 'fig'
 ```puppet
 class { 'fig': }
 ```
-
-## Test Install
-`which fig; fig --version`
