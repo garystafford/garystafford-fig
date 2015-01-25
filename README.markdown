@@ -8,6 +8,8 @@ This module is currently tested on:
 
 * Ubuntu 12.04
 * Ubuntu 14.04
+* Ubuntu 14.10
+* CentOS 6.6
 
 It may work on other distros...
 

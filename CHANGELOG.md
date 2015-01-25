@@ -2,6 +2,14 @@
 
 Change history for garystafford-fig
 
+## 0.1.5
+
+Released 2015-01-25
+
+* General refactoring of code
+* Added 'onlyif' statements to 'exec' commands
+* Tested module with CentOS 6.6
+
 ## 0.1.4
 
 Released 2014-12-14

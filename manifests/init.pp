@@ -10,16 +10,15 @@
 #
 # Sample Usage: include fig
 #
-class fig {
+class fig () {
+  Exec {
+    path => ['/bin/', '/sbin/', '/usr/bin/', '/usr/sbin/'] }
+
   exec { 'install-fig':
-    path    => ['/usr/bin/', '/usr/sbin/', '/bin'],
-    command => 'curl -L https://github.com/docker/fig/releases/download/1.0.1/fig-`uname -s`-`uname -m` > /tmp/fig',
+    command => 'curl -L https://github.com/docker/fig/releases/download/1.0.1/\
+      fig-`uname -s`-`uname -m` > /tmp/fig && mv /tmp/fig /usr/local/bin',
     user    => root,
-  } ->
-  exec { 'move-fig':
-    path    => ['/usr/bin/', '/usr/sbin/', '/bin'],
-    command => 'mv /tmp/fig /usr/local/bin',
-    user    => root,
+    onlyif  => 'test ! -f /usr/local/bin/fig'
   } ->
   file { '/usr/local/bin/fig':
     path  => '/usr/local/bin/fig',
