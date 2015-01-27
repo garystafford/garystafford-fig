@@ -2,6 +2,12 @@
 
 Change history for garystafford-fig
 
+## 0.2.0
+
+Released 2015-01-27
+
+* Fixing bug with CentOS install
+
 ## 0.1.5
 
 Released 2015-01-25
