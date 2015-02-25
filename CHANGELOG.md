@@ -2,6 +2,12 @@
 
 Change history for garystafford-fig
 
+## 0.2.1
+
+Released 2015-02-24
+
+* Corrected project_page URL in metadata.json
+
 ## 0.2.0
 
 Released 2015-01-27
