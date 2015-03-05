@@ -14,12 +14,12 @@
 			]
 		}
 	],
-	"project_page": "https://forge.puppetlabs.com/garystafford/fig",
+	"project_page": "https://github.com/garystafford/garystafford-fig",
 	"requirements": [],
 	"source": "https://github.com/garystafford/garystafford-fig",
 	"issues_url": "https://github.com/garystafford/garystafford-fig/issues",
-	"summary": "Module for installing Fig (http://www.fig.sh)",
-	"tags": [ "fig"
+	"summary": "Downloads and installs Fig (http://www.fig.sh)",
+	"tags": [ "fig", "Docker", "container"
 	],
-	"version": "0.2.1"
+	"version": "0.2.2"
 }

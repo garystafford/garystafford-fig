@@ -2,6 +2,12 @@
 
 Change history for garystafford-fig
 
+## 0.2.2
+
+Released 2014-03-04
+
+* Updating metadata and README
+
 ## 0.2.1
 
 Released 2015-02-24
