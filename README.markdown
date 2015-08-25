@@ -1,6 +1,6 @@
 # fig #
 
-Puppet module for downloading and installing Fig v1.0.1 (http://www.fig.sh).
+Puppet module for installing Fig v1.0.1 (http://www.fig.sh).
 
 ## Support
 
